@@ -39,8 +39,8 @@ A full-stack grocery store web application built using React for the frontend an
 
 ### 🔹 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/grocery-project.git
-cd grocery-project
+git clone https://github.com/Arvindlodhi2001/Grocery.git
+cd Grocery
 
 
 Commands Lines for Project Run
