@@ -1,0 +1,60 @@
+.BannerSection{
+    padding: 25px 35px;
+    margin-bottom: 50px;
+}
+
+.BannerSection .Box{
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.BannerSection  .Box img{
+    width: 100%;
+    position: relative;
+}
+
+.BannerSection  .Box:hover img {
+    transform: scale(1.09 ) ;
+    border-radius: 35px !important;
+    -webkit-border-radius: 35px !important;
+    -moz-border-radius: 35px !important;
+    -ms-border-radius: 35px !important;
+    -o-border-radius: 35px !important;
+    -webkit-transform: scale(1.09 ) ;
+    -moz-transform: scale(1.09 ) ;
+    -ms-transform: scale(1.09 ) ;
+    -o-transform: scale(1.09 ) ;
+}
+.BannerSection .TextBox{
+    position: absolute;
+    margin-top: -215px;
+    margin-left: 50px;
+    /* font-weight: 600; */
+    width: 250px;
+    color: #253D4E;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px; 
+    line-height: 1.4;
+}
+
+
+
+
+.BannerSection .ButtonBox{
+    position: absolute;
+    margin-top: -105px;
+    margin-left: 50px;
+    width: 250px;   
+    
+}
+
+.BannerSection .ButtonBox Button{
+background-color:#3BB77E ;
+color: white;
+text-transform: capitalize;
+}

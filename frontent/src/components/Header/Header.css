@@ -1,0 +1,182 @@
+header{
+    width: 97%;
+    height: auto;
+    margin: auto;
+    padding: 27px 0px;
+}
+
+.container-fluid{
+    padding: 0px 0px;
+}
+
+header .HeaderSearch{
+    width: 100%;
+    height: 55px;
+    border: 2px solid #7dcb97;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+header .HeaderSearch .SelectDrop{
+    /* width: 117%; */
+    width: 155px;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+
+}
+
+header .HeaderSearch .SelectDrop::after{
+    content: "";
+    width: 1.5px;
+    height: 26px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 9px;
+    right: 0px;
+}
+
+header .HeaderSearch .search{
+    width: 80%;
+    padding-left: 30px;
+    position: relative;
+}
+
+header .HeaderSearch .search input{
+    width: 100%;
+    height: 30px;
+    border: 0px;
+    outline: none !important ;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+
+header .HeaderSearch .searchIcon{
+    font-size: 27px;
+    position: absolute;
+    right: 30px;
+    top: 2px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+header .HeaderSearch .searchIconAfter{
+    font-size: 28px;
+    position: absolute;
+    right: 30px;
+    top: 2px;
+    cursor: pointer;
+    opacity: 0.7;
+    color: #43a764 ;
+
+}
+
+header .HeaderSearch .VoiceIcon{
+font-size: 28px;
+position: absolute;
+right: 0px;
+top: 2px;
+cursor: pointer;
+opacity: 0.7;
+color: #43a764 ;
+
+}
+
+
+header .countryWrapper .SelectDrop {
+    width: 200px;
+    /* border: 1px solid #7dcb97; */
+    color: #7dcb97;
+    /* border: rgba(43, 42, 42, 0.2); */
+    font-weight: 500;
+    font-size: 16px;
+    height: 50px;
+    top: 0px;
+    padding: 3px;
+    
+    /* Corrected box-shadow property */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* For older WebKit browsers */
+  }
+  header .headerTabs {
+    left: 20px;
+    right: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    font-weight: 500; 
+  }
+  
+  header .headerTabs img {
+    width: 31px;
+    height: 31px;
+    position: relative;
+  }
+  
+  header .headerTabs .bage {
+    background-color: #73cf92;
+    color: white;
+    position: absolute;
+    font-size: 13px;
+    top: -10px;
+    left: 22px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Ensure the badge is circular */
+    font-weight: 500;
+    z-index: 99;
+  }
+
+  header .headerTabs .InerListItem{
+    display: grid;
+    text-align: center;
+    align-items: center;
+  }
+
+  
+  /* User Account Drop Down menu Start */
+
+  .headerTabs  .dropDownMenu {
+    position: absolute;
+    z-index: 100;
+    padding: 7px;
+    width: 230px;
+    background-color: #fff;
+    right: 40px;
+    height: auto;
+    align-items: center !important;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);    
+  }
+
+  .headerTabs  .dropDownMenu .UserDropDownList
+  {
+    width: 100%;
+    list-style: none !important;
+    padding:  4px 0px;
+    margin-left: 0px  !important;
+    left: 0px !important;
+    margin-left: 0px !important;
+  }
+  .headerTabs  .dropDownMenu .UserDropDownList button{
+    width: 100% !important;
+    text-align: left !important ;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.7);
+  }
+
+ 
+  

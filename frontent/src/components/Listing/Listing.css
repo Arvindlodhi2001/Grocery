@@ -1,0 +1,56 @@
+/* Listing */
+
+.listingPage{
+    width: 100%;
+    height: auto;
+    padding: 45px 20px;
+  }
+  
+  .listingPage .breadcrumb{
+    width: 100%;
+    height:auto;
+    padding: 45px 35px;
+    background-color: #d8f1e5 !important;
+    border-radius: 20px !important;
+    margin-bottom: 30px;
+  
+  }
+  
+  .listingPage .breadcrumb h1{
+    color: black;
+    opacity: 0.8;
+    font-family: "Quicksand" , suns-serif;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .listingPage .breadcrumb ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .listingPage  .listingData .sidebarWrapper{
+    max-width: 22%;
+  }
+
+  .listingPage  .listingData .rightContent{
+    max-width: 76%;
+  }
+
+  /* Right Content */
+
+  .rightContent header p{
+    font-family: "Quicksand" , suns-serif;
+    opacity: 0.8;
+    font-size: 18px;
+  }
+
+.ProductRow{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ProductRow .item{
+  margin-top: 20px;
+}

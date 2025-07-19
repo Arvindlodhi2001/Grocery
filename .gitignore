@@ -1,0 +1,36 @@
+# ============================
+# Node.js & Express (Backend)
+# ============================
+Backend/node_modules/
+Backend/.env
+Backend/*.log
+Backend/logs/
+Backend/.DS_Store
+
+# ============================
+# React + Vite (Frontend)
+# ============================
+Frontent/node_modules/
+Frontent/.env
+Frontent/.DS_Store
+Frontent/dist/         # Vite production build
+Frontent/.vite/        # Vite cache
+Frontent/.eslintcache
+Frontent/coverage/
+
+# ============================
+# Global ignores
+# ============================
+*.log
+.env
+.DS_Store
+Thumbs.db
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+ehthumbs.db
+Desktop.ini

@@ -1,0 +1,82 @@
+*{
+    font-family: "Quicksand" , suns-serif;
+}
+
+.MainFirstBox{
+    background-color: #f2f2f2;
+}
+
+.firstCol{
+    /* background-color: rgba(245, 151, 39, 0.8); */
+    background-color:rgb(24, 134, 83) !important;
+}
+
+.MainBox{
+  overflow: hidden;
+  border-radius: 30px !important;
+  -webkit-border-radius: 30px !important;
+  -moz-border-radius: 30px !important;
+  -ms-border-radius: 30px !important;
+  -o-border-radius: 30px !important;
+}
+
+.textcontainer{
+    padding: 80px 20px 150px 20px;
+}
+
+.textcontainer h1{
+    font-weight: 600;
+    color: #fff;
+}
+
+.textcontainer p{
+    color: #eae1e1;
+}
+
+.LogInButton{
+    font-size: 15px !important;
+    text-transform: capitalize !important;
+    background-color: #b7abab !important;
+    color: white !important;
+    padding: 10px 50px 10px 50px !important;
+    border-radius: 25px !important;
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    -ms-border-radius: 25px !important;
+    -o-border-radius: 25px !important;
+}
+
+.textcontainer img{
+    width: 200px !important;
+    height: 200px !important;
+}
+
+label{
+    font-size: 20px;
+}
+
+
+
+.colSecond{
+    background-color: #9fdebe;
+}
+
+.SignButton{
+    border: 2px solid rgb(24, 134, 83)  !important;
+    background-color:  rgb(24, 134, 83) !important;
+    font-family: "Quicksand" , suns-serif;
+
+}
+
+.TextAccountLine{
+    font-size: 20px;
+    margin-top: 10px !important;
+}
+
+.AccountCreate{
+color: rgb(24, 134, 83);
+}
+
+.AccountCreate:hover{
+    color: #FDC040;;
+}

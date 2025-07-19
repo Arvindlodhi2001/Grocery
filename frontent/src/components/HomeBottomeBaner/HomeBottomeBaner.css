@@ -1,0 +1,56 @@
+.newsLetterSection{
+    width: 100%;
+    height: auto;
+    padding: 15px 40px;
+}
+
+.newsLetterSection .box{
+    background: url(../../assets/Images/banner-10.png);
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    padding: 60px 80px;
+    position: relative;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.newsLetterSection .box .info{
+    width: 55%;
+} 
+
+.newsLetterSection .box .info h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 55px;
+    font-family: "Quicksand" , suns-serif;
+    opacity: 0.8;
+}
+
+.newsLetterSection .box .info p{
+    font-size: 20px; 
+    opacity: 0.6;  
+    font-family: "Quicksand" , suns-serif;
+}
+
+
+ .newsLetterSection .box .img{
+    width: 45%;
+}
+
+.newsLetterSection .box .img img{
+    position: relative;
+    top: 60px;
+}
+
+
+.newsLetterSection .box .info .newsLatter{
+    position:relative !important ;
+    left: 0px !important;
+    bottom: inherit !important;
+    margin-top: 40px;
+
+}

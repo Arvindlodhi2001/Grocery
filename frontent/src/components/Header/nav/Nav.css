@@ -1,0 +1,175 @@
+
+.nav{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 67px;
+    margin: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgb(209, 240, 200);
+    overflow-x: hidden;
+}
+
+.catTab{
+    padding: 0px 18px !important;
+    font-size: 16px !important;
+    text-transform:capitalize !important;
+}
+
+.nav nav  ul li button {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 11px 8px;
+    top: 10px;
+}
+
+
+.nav .part3{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav .phNo {
+    display: flex;
+    align-items: center;
+    width: 90% !important;
+}
+.nav .phNo svg{
+
+    font-size: 40px  !important;
+}
+
+ .nav  .phNo .phNoText{
+    line-height: 13px;
+    
+}
+
+.nav .part2 .dropdownMenu{
+    position: absolute;
+    z-index: 100;
+    margin-top: 1%;
+    margin-left: -60px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    background-color: #3bb77e;
+
+    /*background-color: rgb(226, 244, 221);
+    */
+}
+
+.nav .part2 .dropdownMenu ul
+{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);    
+    width: 240px;
+    height: auto;
+    padding: 5px;
+}
+
+.nav .part2 .dropdownMenu ul li{
+    list-style:none;
+    width: 100%;
+    text-align: left !important;
+    padding: 0px;
+    text-align: left !important;
+
+}
+
+.nav .part2 .dropdownMenu ul li Button{
+    width: 100%;
+    display: flex !important;
+    justify-content: flex-start;
+    text-align: left !important;
+    padding: 5px 15px;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.nav .part2 nav  ul li:hover .dropdownMenu{
+    top: 24%;
+    opacity: 1;
+    visibility: inherit;
+    margin-left: -60px;
+    
+}
+
+.nav .part2 .MegaMenu{
+    z-index: 100;
+    position: absolute;
+    left: 20px;
+    top: 26%;
+    height: auto;
+    width: 97%;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #3bb77e;
+    padding: 30px 45px;
+   
+}
+
+.nav .part2 nav  ul li:hover .MegaMenu{
+    opacity: 1;
+    visibility: inherit;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+
+   
+}
+
+.nav .part2 .MegaMenu .row .bannerImage{
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    
+}
+
+.nav .part2 .MegaMenu .row .bannerImage img{
+  width: 100% !important;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+
+.nav .part2 .MegaMenu .row ul {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.nav .part2 .MegaMenu .row ul li{
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 400;
+    color: white;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.Link{
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+

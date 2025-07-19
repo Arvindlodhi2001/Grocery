@@ -1,0 +1,54 @@
+.MainContainer{
+    padding: 80px;
+    font-family: "Quicksand" , suns-serif;
+}
+
+.MainContainer ul{
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+.MainContainer ul li{
+    list-style: none;
+    border: 1px solid gray;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 7px;
+    font-size: 16px;
+    color: #7E7E7E;
+    padding: 15px 30px;
+    font-weight: 700;
+    border-radius: 7px;
+    font-size: 17px;
+}
+
+.MainContainer ul li:hover{
+    background-color: #198754;
+    color: #fff;
+    border-color: #198754;
+}
+
+.UlLiChange{
+    background-color: #198754;
+    color: #fff !important;
+    border-color: #198754;  
+}
+
+.OrderTableHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.FoundButton{
+    color: #fff !important;
+    /* background-color: rgb(182, 218, 172) !important; */
+    background-color: #198754 !important;
+    text-transform:capitalize !important ;
+}
+
+
+
+

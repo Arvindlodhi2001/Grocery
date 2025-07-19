@@ -1,0 +1,149 @@
+/* .HomeProductt{
+  margin-top: 100px;
+} */
+
+.MainHomeDealsOfTheDay .item{
+    padding: 10px 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 200px;
+    height: auto;
+}
+.MainHomeDealsOfTheDay .item.ImgDive{
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.MainHomeDealsOfTheDay .item img{
+  width: 100%;
+  height: auto;
+  overflow:hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* Time Dealt Card */
+
+
+
+.col-3.item {
+    position: relative;
+  }
+  
+  .TimeDealtCard {
+    width: 80%;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    transition: transform 0.5s ease; 
+  }
+
+
+.TimeDealtCard:hover {
+  transform: translate(-50%, -60%);
+  transition: transform 0.3s ease;
+}
+
+
+
+
+  
+  .TimeDealtCard .CardTime {
+    height: 65px;
+    width: 65px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 10px;
+    margin-left: 4px;
+    line-height: 5px;
+    padding-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+  .TimeDealtCard .CardTime .Time {
+    color:#3BB77E ;
+    font-size: 22px;
+  } 
+
+  .TimeDealtCard .CardTime .Text {
+    color:#8d928f ;
+    font-size: 16px;
+  } 
+
+  .TimeDealtCard .information{
+    height: 180px;
+    z-index: 100;
+    padding: 10px 20px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -20px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.TimeDealtCard .information p{
+font-weight: 600;
+line-height: 20px;
+color: rgb(71, 69, 69);
+
+}
+
+.TimeDealtCard .information .Rating{
+    font-size: 20px;
+}
+
+.TimeDealtCard .information .RatingNumber, .Brand{
+    color: #8d928f;
+}
+
+.TimeDealtCard .information span{
+    font-size: 20px;
+    
+}
+
+.TimeDealtCard .information .RateAmount{
+    font-weight: 600;
+}
+
+.TimeDealtCard .information .RateCut{
+    color: #8d928f;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.TimeDealtCard .information Button{
+    background-color: #DEF9EC;
+    color: #3BB77E;
+    padding: 5px 12px;
+}
+
+.TimeDealtCard .information:hover Button{
+    background-color: #3BB77E;
+    color: #fff;
+}
+
+
+
