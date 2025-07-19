@@ -2,10 +2,9 @@
 
 A full-stack grocery store web application built using React for the frontend and Node.js (Express + MongoDB) for the backend. This app allows users to browse, view, and manage grocery products in an e-commerce style layout.
 
-![Grocery App](https://media.istockphoto.com/id/1319625327/photo/shopping-basket-full-of-variety-of-grocery-products-food-and-drink-on-yellow-background.jpg?s=612x612&w=0&k=20&c=GHyTjlkoFweJnbAadmn4tzEYvfiB73MTe93KMT3GIM0=)
 
 <p align="center">
-  <img src="https://media.istockphoto.com/id/1319625327/photo/shopping-basket-full-of-variety-of-grocery-products-food-and-drink-on-yellow-background.jpg?s=612x612&w=0&k=20&c=GHyTjlkoFweJnbAadmn4tzEYvfiB73MTe93KMT3GIM0=" alt="Grocery App" style="width: 100%; height: auto;" />
+  <img src="https://media.istockphoto.com/id/1319625327/photo/shopping-basket-full-of-variety-of-grocery-products-food-and-drink-on-yellow-background.jpg?s=612x612&w=0&k=20&c=GHyTjlkoFweJnbAadmn4tzEYvfiB73MTe93KMT3GIM0=" alt="Grocery App" style="width: 100%; height: "450px";" />
 </p>
 
 
