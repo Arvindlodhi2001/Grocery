@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./Backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./Backend:/app
+    environment:
+      - MONGO_URI=mongodb+srv://Grocery:GroceryPassword%40123@cluster0.gc8rq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+    depends_on:
+      - backend
+    restart: unless-stopped
